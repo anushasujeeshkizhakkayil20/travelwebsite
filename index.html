@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist-Home</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- bootstrap link -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href=  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Dancing+Script:wght@400;500;600&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Roboto:ital,wght@0,300;0,500;0,700;1,500&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- google fonts -->
+</head>
+
+<body>
+<!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#services">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#guide">Guide</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- nav bar close -->
+      <!-- home section start-->
+    <div class="home">
+      <div class="content">
+        <h5>welcome to my world</h5>
+        <h1>visit<span class="changecontent"></span></h1>
+        <p>Where to stay on your next break</p>
+        <a href="#book">Book place</a>
+
+      </div>
+
+    </div>
+  <!-- home section end -->
+
+   <!-- section book start -->
+   <section class="book" id="book">
+    <div class="container">
+      <div class="main-text">
+        <h1><span>B</span>ook</h1>
+     </div>
+      <div class="row">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+          <img src="./images/img1.webp" alt="">
+        </div>
+      </div>
+      <div class="col-md-6 py-3 py-md-0">
+    <form action="#">
+         <input type="text" class="form-control" placeholder="Where To" required><br>
+          <input type="text" class="form-control" placeholder="How Many" required><br>
+          <input type="date" class="form-control" placeholder="Arrival" required><br>
+          <input type="date" class="form-control" placeholder="leaving" required><br>
+          <textarea class="form-control"  row="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+          <input type="submit" value="Book Now" class="submit" required>
+      </form>
+      </div>
+      </div>
+    </div>
+  </div>
+   </section>
+
+   <!--section book end  -->
+   <!--section package start  -->
+
+  <section class="packages"id="packages">
+
+    <div class="container">
+      <div class="main-text">
+        <h1><span>P</span>ackages</h1>
+
+      </div>
+      <div class="row"  style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/pack1.jpg" alt="" width="400" height="300">
+            <div class="card-body">
+              <h3>United kingdom</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipieque eius quae?</p>
+              <div class="star">
+
+               <i class="fa-solid fa-star" style="color: green"></i>
+               <i class="fa-solid fa-star" style="color: green"></i>
+               <i class="fa-solid fa-star" style="color: green"></i>
+               <i class="fa-solid fa-star" style="color: green"></i>
+               <i class="fa-solid fa-star" ></i>
+              </div>
+              <h6>Price:<strong>$500</strong></h6>
+               <a href="#book">Book Now</a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/pack3.jpeg" alt="" width="400" height="300">
+            <div class="card-body">
+              <h3>Germany</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipieque eius quae?</p>
+              <div class="star">
+
+               <i class="fa-solid fa-star" style="color: green"></i>
+               <i class="fa-solid fa-star" style="color: green"></i>
+               <i class="fa-solid fa-star" style="color: green"></i>
+               <i class="fa-solid fa-star" style="color: green"></i>
+               <i class="fa-solid fa-star" ></i>
+              </div>
+              <h6>Price:<strong>$600</strong></h6>
+               <a href="#book">Book Now</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/australia.webp" alt="" width="400" height="300">
+            <div class="card-body">
+              <h3>Australia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipieque eius quae?</p>
+              <div class="star">
+
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" ></i>
+              </div>
+              <h6>Price:<strong>$500</strong></h6>
+               <a href="#book">Book Now</a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/india.webp" alt="" width="400" height="300" >
+            <div class="card-body">
+              <h3>India</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipieque eius quae?</p>
+              <div class="star">
+
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" ></i>
+               <i class="fa-solid fa-star" ></i>
+              </div>
+              <h6>Price:<strong>$500</strong></h6>
+               <a href="#book">Book Now</a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/europe3.jpg" alt="" width="400" height="300" >
+            <div class="card-body">
+              <h3>Usa</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipieque eius quae?</p>
+              <div class="star">
+
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" ></i>
+              </div>
+              <h6>Price:<strong>$500</strong></h6>
+               <a href="#book">Book Now</a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/france.jpg" alt="" width="400" height="300" >
+            <div class="card-body">
+              <h3>France</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipieque eius quae?</p>
+              <div class="star">
+
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" style="color: green;"></i>
+               <i class="fa-solid fa-star" ></i>
+               <i class="fa-solid fa-star" ></i>
+               <i class="fa-solid fa-star" ></i>
+              </div>
+              <h6>Price:<strong>$500</strong></h6>
+               <a href="#book">Book Now</a>
+            </div>
+
+          </div>
+
+        </div>
+
+</div>
+
+    </div>
+    </section>
+
+<!--package end  -->
+
+<!-- services  start-->
+<section class="services" id="services">
+<div class="container">
+  <div class="main-text">
+    <h1><span>S</span>ervices</h1>
+
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-4">
+      <div class="card">
+        <i class="fa-solid fa-hotel" style="color: #4fe817;"></i>
+        <div class="card-body">
+          <h3>Affordable Hotel</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aliquid quod eum, vero id facere ut quia fuga, vitae pariatur dolor magnam sed placeat possimus minus cum deserunt, molestias nulla!</p>
+
+        </div>
+</div>
+
+    </div>
+
+    <div class="col-md-4 py-3 py-md-4">
+      <div class="card">
+        <i class="fa-solid fa-utensils" style="color: #1fee11;"></i>
+        <div class="card-body">
+          <h3>Food & Drinks</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aliquid quod eum, vero id facere ut quia fuga, vitae pariatur dolor magnam sed placeat possimus minus cum deserunt, molestias nulla!</p>
+
+        </div>
+</div>
+
+    </div>
+    <div class="col-md-4 py-3 py-md-4">
+      <div class="card">
+        <i class="fa-sharp fa-solid fa-shield" style="color: #0eec1d;"></i>
+        <div class="card-body">
+          <h3>Saftey & Guide</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aliquid quod eum, vero id facere ut quia fuga, vitae pariatur dolor magnam sed placeat possimus minus cum deserunt, molestias nulla!</p>
+
+        </div>
+</div>
+
+    </div>
+</div>
+
+</div>
+</section>
+<!-- services  end-->
+
+<!-- gallery  start-->
+<section class="gallery" id="gallery">
+<div class="container">
+  <div class="main-text">
+    <h1><span>G</span>allery</h1>
+</div>
+<div class="row" style="margin-top: 30px;">
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/europe2.webp" alt="" height="230px">
+
+    </div>
+
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/newimg1.webp" alt="" height="230px">
+
+    </div>
+
+  </div>
+
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/newimg2.webp" alt="" height="230px">
+
+    </div>
+
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/newimg3.jpg" alt="" height="230px">
+
+    </div>
+
+  </div>
+
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/newimg5.jpg" alt="" height="230px">
+
+    </div>
+
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/india2.avif"alt="" height="230px">
+
+    </div>
+
+  </div>
+
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/london.jpg "alt="" height="230px">
+
+    </div>
+
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/india1.webp "alt="" height="230px">
+
+    </div>
+
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/kashmir.jpg"alt="" height="230px">
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+</section>
+
+<!-- gallery end-->
+<!-- about us start -->
+<section class="about" id="about">
+<div class="container">
+
+  <div class="main-text">
+    <h1>About <span>Us</span></h1>
+    </div>
+
+<div class="row" style="margin-top: 50px;">
+  <div class="col-md-6 py-3 py-md-0">
+  <div class="card">
+    <img src="./images/pack1.jpg" alt="">
+  </div>
+  </div>
+  <div class="col-md-6 py-3 py-md-0">
+  <h2>How Travel Agency Work</h2>
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores a delectus laboriosam magni officiis dolor neque unde libero? Doloribus voluptatem expedita eum veniam quo debitis iure. Molestiae, excepturi itaque?</P>
+<button id="about-btn">Read More...............................................................................</button>
+  </div>
+</div>
+  </div>
+</div>
+</section>
+<!--  about end-->
+
+
+
+
+<!-- guide start -->
+<section class="guide" id="guide">
+  <div class="container">
+    <div class="text-center">
+      <h6 class="section-title bg-white text-center text-primary px-3">Travel Guide</h6>
+     <h1>Meet Our <span>Guide</span></h1>
+    </div>
+   <div class="row g-4">
+    <div class="col-lg-3 col-md-6">
+      <div class="team-item">
+        <div class="overflow-hidden">
+          <img src="./images/man6.jpg "alt="" class="img-fluid" >
+
+        </div>
+        <div class="position-relative d-flex justify-content-center" style="margin-top:-19px;"> 
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-facebook" style="color: green;"></i>
+        </a>
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-twitter" style="color: green;"></i>
+        </a>
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-whatsapp" style="color: green;"></i>
+        </a>
+      </div>
+      <div class="text-center p-4">
+        <h5 class="mb-0">Jhon</h5>
+        <small>Newyork</small>
+
+      </div>
+
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="team-item">
+        <div class="overflow-hidden">
+          <img src="./images/women4.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="position-relative d-flex justify-content-center" style="margin-top:-19px;"> 
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-facebook" style="color:green;"></i>
+        </a>
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-twitter" style="color: green;"></i>
+        </a>
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-whatsapp" style="color: green;"></i>
+        </a>
+      </div>
+      <div class="text-center p-4">
+        <h5 class="mb-0">Diana</h5>
+        <small>England</small>
+      </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+      <div class="team-item">
+        <div class="overflow-hidden">
+          <img src="./images/women1.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="position-relative d-flex justify-content-center" style="margin-top:-19px;"> 
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-facebook" style="color: green;"></i>
+        </a>
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-twitter" style="color: green;"></i>
+        </a>
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-whatsapp" style="color: green;"></i>
+        </a>
+      </div>
+      <div class="text-center p-4">
+        <h5 class="mb-0">juli</h5>
+        <small>India</small>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="team-item">
+        <div class="overflow-hidden">
+          <img src="./images/man2.jpeg" alt="" class="img-fluid">
+        </div>
+        <div class="position-relative d-flex justify-content-center" style="margin-top:-19px;"> 
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-facebook" style="color: green"></i>
+        </a>
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-twitter" style="color: green;"></i>
+        </a>
+        <a href="" class="btn-squaremx-1">
+          <i class="fa-brands fa-whatsapp" style="color: green;"></i>
+        </a>
+      </div>
+      <div class="text-center p-4">
+        <h5 class="mb-0">Surya</h5>
+        <small>london</small>
+      </div>
+      </div>
+    </div>
+
+     </div>
+    </div>
+    
+   </div>
+
+  </div>
+  
+</section>
+  <!-- guide end -->
+
+<!-- footer start -->
+<footer id="footer">
+  <h1><span>T</span>ravel</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem consequuntur inventore quo fugit voluptatum ab, error dolorem dolorum asperiores quasi fuga delectus cumque deserunt iure aliquid architecto. Nihil, laborum ad? </p>
+<div class="social-links">
+ <i class="fa-brands fa-square-twitter"></i>
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-square-instagram"></i>
+  <i class="fa-brands fa-square-whatsapp"></i>
+<p>designed by <a href="#">SuryaS coding</a></p>
+</div>
+<div class="copyright">
+  <p>&copy;Copyright SuryaS coding.All rights reserved</p>
+
+</div>
+</footer>
+
+
+
+
+
+<!-- contact us end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
+
