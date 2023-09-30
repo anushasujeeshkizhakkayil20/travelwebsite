@@ -286,12 +286,6 @@ transition: 0.5s;
 .gallery .card img:hover{
     transform: scale(1.1);
 }
-
-
-
-
-
-
 /* gallery end */
 /* about us start */
 .about{
@@ -391,8 +385,6 @@ box-shadow: 0 0 45px rgba(0, 0,0, 0.08);
 .social-links i:hover{
     background: #4fe817;
 }
-
-
 /* foter  end*/
 
 
